@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="sunny">
+    <button id="themeToggle" title="Toggle Dark Mode">🌙</button>
+  <header>
+    <h1>Weather App</h1>
+  </header>
+  <main>
+    <form id="searchForm">
+      <input type="text" id="cityInput" placeholder="Enter city name" required />
+      <button type="submit">Get Weather</button>
+    </form>
+    <section class="weather-card" id="weatherCard">
+      <h2 id="cityName">City Name</h2>
+      <img id="weatherIcon" src="" alt="Weather Icon" />
+      <p><strong>Condition:</strong> <span id="condition">--</span></p>
+      <p><strong>Temperature:</strong> <span id="temperature">--</span>°<span id="unit">C</span></p>
+      <label class="switch">
+        <input type="checkbox" id="tempToggle" />
+        <span class="slider round" title="Toggle °C/°F"></span>
+      </label>
+
+      <p><strong>Humidity:</strong> <span id="humidity">--</span>%</p>
+      <p><strong>Wind Speed:</strong> <span id="windSpeed">--</span> m/s</p>
+      <button id="refreshBtm" title="CLick to Refresh">🔁 Refresh</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Weather App. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
