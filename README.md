@@ -19,7 +19,7 @@ A modern, responsive Weather App built using **HTML**, **CSS**, and **JavaScript
 
 ## 🚀 Demo
 
-👉 [Live Demo](https://your-live-link.netlify.app/) <!-- Replace with actual live link if hosted -->
+👉 [Live Demo](https://kl-weather-app.netlify.app/) <!-- Replace with actual live link if hosted -->
 
 ---
 
